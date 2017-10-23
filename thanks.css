@@ -1,0 +1,14 @@
+
+body{
+    background-color: blueviolet
+}
+
+p{
+    
+color: aqua; 
+    font-family: monospace;
+    font-style: italic;
+    text-shadow: 6px 5px gray;
+ font-size: 26px;
+    padding: 250px;
+}

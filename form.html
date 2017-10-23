@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       
+        p{
+            font-style: italic;
+            font-size: 20px;
+            padding: 40px;
+            margin-left: 130px;
+        }
+        
+        h1{
+            text-align: center;
+            font-style: italic;
+            font-stretch: ultra-expanded;
+            margin-left: 125px;
+            margin-top: 70px;
+            border: 1px solid ;
+            background-color: fuchsia;
+            padding: 20px;
+        }
+        body{
+            
+            background-color: darkseagreen;
+            
+        }
+        form{
+            padding: 112px;
+            font-size: 18px;
+            
+        }
+    </style>
+    </head>
+    <body>
+        <h1>This from want your information </h1>
+        <p>Here you can put your personl information to join the group.Very few information is needed.<br>You can also write your comments in a comment box then submit this.</p>
+        
+        <form action="aftersub.html" method="get" target="_blank">
+            
+            <fieldset>
+                <legend><b>Put you personal innformation:</b></legend> <br>
+            First name: <input type="text" name="firstname"><br><br>
+            Last name: <input type="text"  name="lastname"><br><br>
+            Telephone: <input type="tel" name="phoneno"><br><br>
+            E-mail: <input type="email" name="email"><br><br>
+            Your Web site: <input type="url" name="website"><br><br>
+            
+                Select Country:<select name="country">
+                <option value="aus">--Australia--</option>
+                <option value="bah">--Bahamas--</option>
+                <option value="can">--Canada--</option>
+                <option value="usa">--U.S.A--</option>
+                <option value="zam">--Zambia--</option>
+             </select><br><br>
+                
+            Write your openion here:<br><textarea name="remark" rows="15" cols="45">
+                </textarea> <br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            </fieldset>    
+        
+        </form>
+    </body>
+</html>
